@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url(19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home{
+    height: 723px;
+}
+.icon-globe{
+    color: #fd5c63;
+    text-decoration: none;
+    font-size: 45px;
+    position: relative;
+    right: 155px;
+    top: 6px;
+}
+.logo>h1{
+    color: #fff;
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin-left: 100px;
+}
+.logo>h1>a{
+    text-decoration: none;
+}
+.bs{
+    font-weight: 300;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 105px;
+    bottom: 30px;
+}
+.logo{
+    width: 300px;
+    background: none;
+    position: relative;
+    left: 10%;
+    top: 14px;
+}
+.menu>ul>li{
+    display: inline;
+    position: relative;
+    left: 50%;
+    bottom: 35px;
+}
+.menu>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 15px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.menu>ul>li>a:hover{
+    color: #fd5c63;
+}
+.contacto{
+    background: #17a2b8;
+    padding: 12px 30px !important;
+    border-radius: 80px;
+}
+.contacto:hover{
+    background: #fff;
+    color: #17a2b8 !important;
+}
+.contenedor2{
+    width: 70%;
+    background: none;
+    position: absolute;
+    left: 12%;
+    top: 40%;
+}
+.contenedor2>h2{
+    font-size: 56px;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.title-2{
+    font-size: 56px;
+    color: #fd5c63;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    font-weight: 600;
+    position: relative;
+    left: 260px;
+    bottom: 80px;
+}
+.contenedor2>p{
+    color: #fff;
+    margin: 16px 0px;
+    position: relative;
+    bottom: 90px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.contenedor2>a{
+    text-transform: capitalize;
+    background: #17a2b8;
+    border-radius: 80px;
+    padding: 12px 30px !important;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    bottom: 60px;
+    transition: all 0.5s;
+}
+.contenedor2>a:hover{
+    background: #fd5c63;
+}
+/*--------ABOUT PÁGINA---------*/
+#about{
+    height: 723px;
+    background: #fff;
+}
+.about{
+    border-left: 4px solid #17a2b8;
+    position: relative;
+    left: 13%;
+    top: 40px;
+    width: 250px;
+    padding-left: 20px;
+    height: 78px;
+    background: none;
+}
+.about>h4{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #a6a6a6;
+    position: relative;
+    top: 5px;
+}
+.about>h1{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 46px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background: lightgray;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background: grey;
+}

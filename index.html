@@ -1,0 +1,80 @@
+<!--WEB CREADA POR XIMO ROMERO ESTEVE-->
+<!--Última modificación: 18/11/2018-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Booster</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://file.myfontastic.com/uHjwAgLr5b7KeoLux4v2Ej/icons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $("#linkabout").click(function(){
+              $path=$("#about").offset().top;
+               
+               $('body').animate({scrollTop:$path}, 1000);
+           });
+            $("#linkservices").click(function(){
+              $path=$("#services").offset().top;
+               
+               $('body').animate({scrollTop:$path}, 1000);
+           });
+            $("#linkpricing").click(function(){
+              $path=$("#pricing").offset().top;
+               
+               $('body').animate({scrollTop:$path}, 1000);
+           });
+            $("#linkpages").click(function(){
+              $path=$("#pages").offset().top;
+               
+               $('body').animate({scrollTop:$path}, 1000);
+           });
+            $("#linkcontact").click(function(){
+              $path=$("#contact").offset().top;
+               
+               $('body').animate({scrollTop:$path}, 1000);
+           });
+        });
+    </script>
+</head>
+</head>
+<body>
+  <div class="home">
+   <div class="logo">
+    <h1>web<a href="index.html">
+           
+            <i class="icon-globe"></i>
+            <h4 class="bs">Booster</h4>
+        </a>
+    </h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="#about" id="linkabout">about</a></li>
+            <li><a href="#services" id="linkservices">services</a></li>
+            <li><a href="#pricing" id="linkpricing">pricing</a></li>
+            <li><a href="#pages" id="linkpages">pages</a></li>
+            <li><a href="#contact" class="contacto" id="linkcontact">contact us</a></li>
+        </ul>
+    </div>
+    <div class="contenedor2">
+    <h2>we make</h2>
+    <span class="title-2">web better...</span>
+    <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu neque lectus.</p>
+    <a href="#" class="read-more">read more</a>
+    </div>
+    </div>
+    <div id="about">
+        <div class="about">
+            <h1>about us</h1>
+            <h4>Few Words Of Our Company</h4>
+        </div>
+    </div>
+    <div id="services">
+        
+    </div>
+</body>
+</html>
